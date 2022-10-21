@@ -6,6 +6,9 @@ import "./index.css";
 function App(){
     return(
         <div>
+            <div>
+                <img src="./images/Nka.png" alt="Esther Aken" />
+            </div>
 <Welcome />
 
         </div>
