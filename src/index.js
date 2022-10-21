@@ -5,11 +5,14 @@ import "./index.css";
 
 function App(){
     return(
-        <div>
-            <div>
+        <div className="app--container">
+            <div className="app--img">
                 <img src="./images/Nka.png" alt="Esther Aken" />
             </div>
-<Welcome />
+            <div>
+            <Welcome />
+            </div>
+
 
         </div>
         

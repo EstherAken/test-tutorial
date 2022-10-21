@@ -3,7 +3,41 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:#FFF8EA ;
+}
 img{
-    width:30%;
-    height:20%;
+    width: 450px;
+    height: 520px;
+}
+p span{
+    display: block;
+}
+
+.app--container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color:#FFF8EA;
+}
+.app--container .app--img{
+   margin-left: 8rem;
+}
+
+.About--container .about--text h1{
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.About--container .about--text p{
+line-height: 1.6;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.About--container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    margin-top: 50px;
+}
+.About--container .about--icons{
+    padding-top: 40px;
 }
